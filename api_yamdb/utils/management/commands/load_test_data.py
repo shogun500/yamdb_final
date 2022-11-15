@@ -5,8 +5,8 @@ from comments.models import Comments
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.core.management import BaseCommand
-from titles.models import Categories, Genres, Title
 from reviews.models import Review
+from titles.models import Categories, Genres, Title
 
 User = get_user_model()
 
