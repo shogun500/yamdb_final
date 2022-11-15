@@ -71,7 +71,6 @@ class TitlesViewSet(viewsets.ModelViewSet):
             queryset = queryset.filter(category__slug=category_slug)
         if name:
             queryset = queryset.filter(name__icontains=name)
-        return queryset
 
 
 class UserMeView(generics.RetrieveUpdateAPIView):
