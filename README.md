@@ -1,3 +1,6 @@
+![This is an image](https://github.com/sergapav/shogun500/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+
 Проект API_YAMDB с использованием DOCKER
 
 # Как запустить проект:
