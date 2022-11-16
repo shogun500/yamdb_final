@@ -2,7 +2,12 @@
 
 ![yamdb_workflow](https://github.com/shogun500/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-
+## Страницы проекта:
+```
+<a href=http://http://84.201.154.23/admin/>- Администрирование</a>
+<a href=http://84.201.154.23/api/v1/>- Страница запросов</a>
+<a href=http://http://84.201.154.23/redoc/>- Адрес сайта</a>
+```
 # Как запустить проект:
 ## Создайте и заполните по образцу .env-файл
 ```
