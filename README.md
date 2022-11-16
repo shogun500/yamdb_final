@@ -15,7 +15,7 @@ SECRET_KEY=<...>
 ```
 ## Собрать и запустить контейнер с помощью Docker-compose
 ```
-docker-compose build --up
+docker-compose up --build
 ```
 ## Выполнить миграции через Docker-compose
 ```
