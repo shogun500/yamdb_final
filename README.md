@@ -1,4 +1,4 @@
-![yamdb_workflow](https://github.com/sergapav/shogun500/actions/workflows/yamdb_workflow.yml/badge.svg)
+![yamdb_workflow](https://github.com/sergapav/shogun500/workflows/yamdb_workflow/badge.svg)
 
 Проект API_YAMDB с использованием DOCKER
 
