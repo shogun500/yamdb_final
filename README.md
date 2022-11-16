@@ -1,5 +1,4 @@
-![This is an image](https://github.com/sergapav/shogun500/actions/workflows/yamdb_workflow.yml/badge.svg)
-
+![yamdb_workflow](https://github.com/sergapav/shogun500/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 Проект API_YAMDB с использованием DOCKER
 
@@ -20,7 +19,6 @@ docker-compose build --up
 ```
 ## Выполнить миграции через Docker-compose
 ```
-docker-compose exec web python manage.py makemigrations reviews  
 docker-compose exec web python manage.py migrate --noinput
 ```
 ## Собрать через Docker-compose статику
@@ -39,7 +37,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 
 
 ## Используемые технологии
-![Alt-Текст](https://img.shields.io/badge/python-3.8-blue)e
+![Alt-Текст](https://img.shields.io/badge/python-3.8-blue)
 ![Alt-Текст](https://img.shields.io/badge/django-2.2.16-blue)
 ![Alt-Текст](https://img.shields.io/badge/djangorestframework-3.12.4-blue)
 ![Alt-Текст](https://img.shields.io/badge/docker-20.10.16-blue)
